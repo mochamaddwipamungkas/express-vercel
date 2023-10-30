@@ -1,20 +1,16 @@
 {
   "name": "express-vercel",
-  "version": "1.0.0",
-  "description": "express deploy to vercel",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
-  "keywords": [
-    "expressjs",
-    "vercel"
-  ],
-  "author": "mochamad dwi pamungkas",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
   }
 }
